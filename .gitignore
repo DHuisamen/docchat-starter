@@ -34,7 +34,7 @@ htmlcov/
 !.env.example
 
 # UV / lock
-uv.lock
+# uv.lock
 
 # Docker
 *.log
