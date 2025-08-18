@@ -7,6 +7,7 @@ RUN pip install --upgrade pip && pip install hatchling
 
 COPY src ./src
 COPY README.md ./
+COPY LICENSE ./
 
 RUN python -m hatchling build -t wheel
 
