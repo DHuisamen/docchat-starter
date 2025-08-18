@@ -1,5 +1,5 @@
-from docchat.config import settings
 from docchat import __version__
+from docchat.config import settings
 
 
 def test_version_semver_like():

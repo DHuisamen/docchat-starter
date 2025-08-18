@@ -52,4 +52,3 @@ uv run pytest
 - Rename the package (if desired) by changing `docchat` occurrences.
 - Start coding in `src/docchat/`.
 - Replace placeholders in `CODEOWNERS` and `CONTRIBUTING.md`.
-
