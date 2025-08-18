@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    command: python -c "print('Compose up. Add your FastAPI entrypoint soon.')"
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
